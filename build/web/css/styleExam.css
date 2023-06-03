@@ -1,0 +1,27 @@
+.question {
+    font-weight: bold;
+  }
+
+  .answers button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .answers button:hover {
+    background-color: #e0e0e0;
+  }
+
+  .answers button:focus {
+    outline: none;
+    background-color: #565353b7;
+  }
+
+  .submit-btn {
+    margin-top: 20px;
+  }
